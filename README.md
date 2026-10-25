@@ -12,3 +12,8 @@ Week 3:
 Goal: Upload live data from public API FRED into the spreadsheet as weekly averages
 Tasks: Obtain data from from FRED using a url and averaging it by month
 Note: Two new columns added year_month and rate_30yr_fixed into both listings and solds spreadsheet
+
+Week 4-5:
+Goal: Clean data and flag invalid columns
+Tasks: Convert date column to datetime format, remove columns with no entries or duplicate columns, remove invalid numeric values such as negatives, make sure dates of transaction follow the correct timeline, and flag incorrect geographical data. 
+Note: Significant drop in Listing entries after the data cleaning from 547162 to 137511
