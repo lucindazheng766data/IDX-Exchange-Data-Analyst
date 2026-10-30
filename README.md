@@ -15,5 +15,5 @@ Note: Two new columns added year_month and rate_30yr_fixed into both listings an
 
 Week 4-5:
 Goal: Clean data and flag invalid columns
-Tasks: Convert date column to datetime format, remove columns with no entries or duplicate columns, remove invalid numeric values such as negatives, make sure dates of transaction follow the correct timeline, and flag incorrect geographical data. 
-Note: Significant drop in Listing entries after the data cleaning from 547162 to 137511
+Tasks: Convert date column to datetime format, remove columns with over 90% null entries, remove columns duplicate columns, remove invalid numeric values such as negatives, make sure dates of transaction follow the correct timeline, and remove incorrect geographical data. 
+Note: The listings dataset went from 86 columns and 547162 rows to 69 columns to 65 columns and 466239 rows. The solds dataset went from 86 columns and 414054 rows to 72 columns and 409661 rows. 
