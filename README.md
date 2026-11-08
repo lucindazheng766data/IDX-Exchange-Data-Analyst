@@ -17,3 +17,8 @@ Week 4-5:
 Goal: Clean data and flag invalid columns
 Tasks: Convert date column to datetime format, remove columns with over 90% null entries, remove columns duplicate columns, remove invalid numeric values such as negatives, make sure dates of transaction follow the correct timeline, and remove incorrect geographical data. 
 Note: The listings dataset went from 86 columns and 547162 rows to 69 columns to 65 columns and 466239 rows. The solds dataset went from 86 columns and 414054 rows to 72 columns and 409661 rows. 
+
+Week 6:
+Goal: Start engineering metrics to put into Tableau
+Tasks: Add metrics for key market indicators, add school districts based on longitude and latitude, create summary tables grouping based on property type, county, etc.
+Note: Metrics were added into the datasets and summary tables were generated elsewhere into html files. A lot of the metrics in involving close price and list price were null in the listings dataset. 
