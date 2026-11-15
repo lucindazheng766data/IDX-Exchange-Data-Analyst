@@ -22,3 +22,8 @@ Week 6:
 Goal: Start engineering metrics to put into Tableau
 Tasks: Add metrics for key market indicators, add school districts based on longitude and latitude, create summary tables grouping based on property type, county, etc.
 Note: Metrics were added into the datasets and summary tables were generated elsewhere into html files. A lot of the metrics in involving close price and list price were null in the listings dataset. 
+
+Week 7:
+Goal: Remove outliers in key market indicator columns
+Tasks: Create two datasets one with out of bound entries removed and one with them flagged. Check the amount of entries removed and median of entries after. 
+Note: Listings entries dropped from 466239 to 101758 in the cleaned dataset likely because there are a lot of entries with null Closing Price. Solds entries only dropped from 409661 to 339724. The trend among the flagged and cleaned dataset is that the median tends to go down after the outliers are removed.
